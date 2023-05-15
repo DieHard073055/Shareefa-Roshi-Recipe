@@ -1,0 +1,55 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	line-height: 1.6;
+	color: #E8E8E8;
+	padding: 0 10px;
+	background-color: #2C3E50;
+}
+
+h1,
+h2 {
+	color: #ECF0F1;
+}
+
+.title,
+.ingredients,
+.instructions {
+	margin: 20px 0;
+	padding: 20px;
+	background-color: #34495E;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.title h1 {
+	text-align: center;
+	color: #1ABC9C;
+}
+
+.title hr {
+	border: 1px solid #1ABC9C;
+	margin: 10px 0;
+}
+
+.ingredients ul,
+.instructions ol {
+	margin-left: 20px;
+}
+
+.ingredients li,
+.instructions li {
+	margin-bottom: 10px;
+}
+
+i {
+	color: #1ABC9C;
+}
+
+strong {
+	color: #E74C3C;
+}
